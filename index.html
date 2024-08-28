@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fortune Teller</h1>
+        <h2>Answer the following questions to reveal your fortune</h2>
+        <form id="fortune-teller-form">
+            <label for="mothers-name">What is your mother's first name?</label>
+            <input type="text" id="mothers-name" name="mothers-name" required>
+
+            <label for="street-name">What is the name of the street you grew up on?</label>
+            <input type="text" id="street-name" name="street-name" required>
+
+            <label for="fav-colour">What was your favourite colour as a child?</label>
+            <input type="text" id="fav-colour" name="fav-colour" required>
+
+            <label for="age">How old are you?</label>
+            <input type="text" id="age" name="age" required>
+
+            <label for="num">Enter a number between 1 and 10.</label>
+            <input type="number" name="num" id="num" min="1" max="10" required>
+
+            <button type="submit">Go!</button>
+        </form>
+
+        <p id="output"></p>
+    </div>
+        
+
+    <script src="fortuneTeller.js"></script>
+</body>
+</html>

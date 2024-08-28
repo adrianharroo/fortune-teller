@@ -1,0 +1,29 @@
+/* Global styles */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 3rem 2rem;
+}
+
+/* Body styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fortune-teller-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+#output {
+    margin-top: 2rem;
+}
